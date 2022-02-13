@@ -13,8 +13,8 @@ class LumenServiceProvider extends TNTSearchScoutServiceProvider
      */
     public function register()
     {
-        $this->app->configure('scout');
-        $this->app->configure('tntsearch');
+        // $this->app->configure('scout');
+        // $this->app->configure('tntsearch');
 
         $this->mergeConfigFrom(__DIR__.'/../config/tntsearch.php', 'tntsearch');
 
